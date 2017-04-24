@@ -1,0 +1,19 @@
+%%
+%%%Parameters for Data tab%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+startingOffset='1.0';
+endingOffset ='1.0';
+
+%%
+%%%%%Parameters for Features Extraction & Reduction Tab %%%%%%%%%%%%%%%%%%%
+
+classes={'Rock,Paper,Scissor','Rock,Paper','Rock,Scissor','Paper,Scissor'};
+
+featuresExtraction = {'SortedSpikes','UnsoretdSpikes','LocalFieldPotential(LFP)',... 
+                'ConvolutionalStackedAuto-Encoders'};
+            
+featuresReduction = {'Principal Componenet Analysis(PCA)',...
+                'Independent Component Analysis(ICA)',...
+                'Restricted Boltzman Machine(RBM)', ...
+                'Auto-Encoders'};
+
+

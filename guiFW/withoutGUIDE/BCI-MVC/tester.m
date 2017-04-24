@@ -1,0 +1,13 @@
+h = figure;
+hp = uipanel('Title','Main Panel','FontSize',12,...
+             'BackgroundColor','white',...
+             ''
+             'Position',[.25 .1 .67 .67]);
+hsp = uipanel('Parent',hp,'Title','Subpanel','FontSize',12,...
+              'Position',[.4 .1 .5 .5]);
+hbsp = uicontrol('Parent',hsp,'String','Push here',...
+              'Position',[18 18 72 36]);
+            
+            
+            
+            
